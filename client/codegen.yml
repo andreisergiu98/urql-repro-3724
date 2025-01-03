@@ -1,0 +1,9 @@
+schema: "../server/schema.gql"
+
+documents:
+  - "src/**/*.tsx"
+
+generates:
+  # Client definition file
+  src/gql/:
+    preset: "client"
